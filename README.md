@@ -34,3 +34,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Create account on uploadthing and add the details in env (use to upload images and file)
+https://uploadthing.com/dashboard/sanukumar-personal-team/87n0jmldve/api-keys
+
+
+## Install from uploadthing
+https://docs.uploadthing.com/getting-started/appdir
+```bash
+bun add uploadthing @uploadthing/react
+```
+
+## mysql installation
+```bash
+brew install mysql
+brew services start mysql
+```
+
+## shadcn installation
+```bash
+bunx --bun shadcn@latest init
+bunx --bun shadcn@latest add --> to add all the components
+```
+
+## install bum
+```bash
+brew install oven-sh/bun/bun
+```
+
+## themes setup
+clerk sdk
+```bash
+bun add @clerk/nextjs
+bun add @clerk/themes
+```
